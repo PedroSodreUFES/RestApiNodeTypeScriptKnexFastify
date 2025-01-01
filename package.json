@@ -1,0 +1,32 @@
+{
+  "name": "02-rest-api",
+  "version": "1.0.0",
+  "description": "--- # Rest API using Typescript, Fastify and Knex ---",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroSodreUFES/RestApiNodeTypeScriptKnexFastify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PedroSodreUFES/RestApiNodeTypeScriptKnexFastify/issues"
+  },
+  "homepage": "https://github.com/PedroSodreUFES/RestApiNodeTypeScriptKnexFastify#readme",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.10.3",
+    "eslint": "^8.57.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "fastify": "^5.2.0"
+  }
+}
