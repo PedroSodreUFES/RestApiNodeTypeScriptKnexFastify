@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "--- # Rest API using Typescript, Fastify and Knex ---",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
@@ -38,6 +41,7 @@
     "dotenv": "^16.4.7",
     "fastify": "^5.2.0",
     "knex": "^3.1.0",
+    "pg": "^8.13.1",
     "sqlite3": "^5.1.7",
     "zod": "^3.24.1"
   }
